@@ -1,0 +1,76 @@
+:root {
+    --font-color: #333;
+    --heading-color: #2c80c6;
+    --container-bg: #dcd9df;
+    --table-bg: #eaeaea;
+    --cell-border-color: #ccc;
+    --hover-bg: #5b798a;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+  }
+  body {
+    font-family: "Arial", sans-serif;
+    color: var(--font-color);
+    
+  }
+  
+  h2 {
+    color: var(--heading-color);
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: var(--container-bg);
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  ul li:first-child {
+    color: #21d3a770;
+  }
+  
+  img {
+    width: 200px;
+    height: 150px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid var(--cell-border-color);
+    padding: 8px;
+  }
+  
+  table tr:hover {
+    background-color: var(--hover-bg);
+  }
+  
+  table th {
+    background-color: #8c7676;
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--link-hover-color);
+  }
+  
+  table tr:first-child td {
+    font-weight:700;
+   
+  }
+  
+  table tr:last-child td {
+    background-color: #ffffcc;
+  }
+  
